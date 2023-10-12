@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import Chessboard from '.Chessboard';
-import MoveInput from '.MoveInput';
-import BestMoveDisplay from '.BestMoveDisplay';
+import Chessboard from '/Chessboard';
+import MoveInput from '/MoveInput';
+import BestMoveDisplay from '/BestMoveDisplay';
 
 const App = () => {
   const [bestMove, setBestMove] = useState('');
